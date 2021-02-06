@@ -2,6 +2,7 @@ module.exports = function (context, options) {
   return {
     name: 'docusaurus-plugin-elm',
     configureWebpack(config, isServer, utils) {
+      console.log(isServer, utils.getCacheLoader(isServer));
       return {
         resolve: {
           extensions: ['.elm'],

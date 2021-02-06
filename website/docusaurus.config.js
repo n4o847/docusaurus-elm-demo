@@ -1,20 +1,20 @@
 const path = require('path');
 
 module.exports = {
-  title: 'My Site',
+  title: 'Docusaurus Elm Demo',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://n4o847.github.io',
+  baseUrl: '/docusaurus-elm-demo/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'n4o847',
+  projectName: 'docusaurus-elm-demo',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Docusaurus Elm Demo',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Docusaurus Elm Demo Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -31,7 +31,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/n4o847/docusaurus-elm-demo',
           label: 'GitHub',
           position: 'right',
         },
@@ -54,23 +54,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
@@ -79,7 +62,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/n4o847/docusaurus-elm-demo',
             },
           ],
         },
@@ -93,15 +76,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
